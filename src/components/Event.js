@@ -50,17 +50,6 @@ function Event(){
         </div>
     );
 }
-
-{/* <div className="event-card" onClick={() => app_setIsOpen(!app_isOpen)}>
-                    <div className="image"></div>
-                    <span className="date">17th January, 2021</span>
-                    <span className="title">App Development</span>
-                    <span className="description">Learn to create an awesome app using Flutter</span>
-                    {app_isOpen ? (
-                        <div className="app-dev modal">
-                            This model opened yay!!!
-                        </div>
-                    ) : null}
-                </div> */}
+s
 
 export default Event;

@@ -8,7 +8,8 @@
 .greenbox{
     width: 200px;
     height: 300px;
-    background:rgb(0, 255, 170);
+    color: rgb(107, 168, 238);
+    
     position: absolute;
     margin-left: 117px;
     margin-top: 242px;
@@ -21,11 +22,12 @@
     color: #777;
 }
 .schedule span{
-    color: rgb(0, 110, 110);
+    color: rgb(40, 23, 199);
 }
 
 .schedule h5{
-    color: rgb(0, 110, 110);
+        color: rgb(40, 23, 199);
+    
     font-weight: bolder;
 }
 .Covi-event{
@@ -60,7 +62,8 @@ opacity: 1;
 background: linear-gradient(rgb(4 43 43),rgba(0,0,0));
 }
 .Covi-event>h3{
-    color: rgb(0, 110, 110);
+    color: rgb(107, 168, 238);
+    
     font-weight: 600;
     text-align: center;
     margin: 15px 0;

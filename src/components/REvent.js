@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment,useHistory } from 'react';
 import './assets/css/REvent.css'
 import REventCard from './REventCard';
 import COVIHACK from './assets/images/events_image/covihack_copy.jpeg'
@@ -14,29 +14,34 @@ import WOW from './assets/images/events_image/DSC_wow.png'
 import INFOSESSION from './assets/images/events_image/infosession.jpeg'
 
 const REvent = () => {
+
     return (
         <Fragment>
             <div id="event">
                 <div className="container my-3 py-5 ">
 
-                    {/* <h1 className="text-center">Upcoming Events</h1> */}
-                    
-                    {/* <hr/> */}
+               
 
                     <h1 className="text-center">Past Events (2021-2022)</h1>
                     <div className="row mt-5">
 
-                        <REventCard 
-                            etitle="Info Session" 
-                            edesc="Speakers: GDSC Team & Former Leads"
-                            eimg={INFOSESSION}
+                    <REventCard 
+                            etitle="Hack-o-Relay" 
+                            edesc=" a _hr long hackathon spanning over 3 days"
+                            eimg={COVIHACK}
+                           
                         />
+                    
 
                     </div>
 
                     <h1 className="text-center">Past Events (2020 - 2021)</h1>
                     <div className="row mt-5">
-
+                    <REventCard 
+                            etitle="Info Session" 
+                            edesc="Speakers: GDSC Team & Former Leads"
+                            eimg={INFOSESSION}
+                        />
 
                         <REventCard 
                             etitle="CoViHaCk'21" 

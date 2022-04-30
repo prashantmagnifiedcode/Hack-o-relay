@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 import { NavLink} from 'react-router-dom';
 //logo
 import logo from './assets/images/greylogo.png';
-
+import Hack_o_relay from './Hack_o_relay'
 const Navbar=()=>{
 return(
     <nav className="navbar navbar-expand-lg navbar-light ">
@@ -27,6 +27,9 @@ return(
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" data-toggle="collapse" data-target=".navbar-collapse"  to="/events">Events</NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink className="nav-link" data-toggle="collapse" data-target=".navbar-collapse"  to="/Hack_o_relay">Hack_o_relay </NavLink>
       </li>
     </ul>
   </div>

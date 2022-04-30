@@ -11,7 +11,7 @@ import { GlobalStyles } from "./components/Globalstyle";
 import { lightTheme, darkTheme } from "./components/Themes"
 import  {useDarkMode} from "./components/useDarkMode"
 import Toggle from "./components/Toggler"
-import CoviHack from './components/CoviHack';
+import Hack_o_relay from './components/Hack_o_relay';
 const App = () => {
  
   const [theme, themeToggler, mountedComponent,tsrc,team,handshake] = useDarkMode();
@@ -23,7 +23,7 @@ if(!mountedComponent) return <div/>
     <>
     <GlobalStyles/>
     <div style={{width:"100%"}}>
-
+   
       {/* <h1>Hello aliens this is DSC-DCE</h1> */}
       <Navbar/>
       <Toggle theme={theme} toggleTheme={themeToggler} tsrc={tsrc}/>
@@ -35,6 +35,10 @@ if(!mountedComponent) return <div/>
       <Route path="/events">
         {/* <Event /> */}
         <REvent  theme={theme}/>
+      </Route>
+      <Route path="/Hack_o_relay">
+        {/* <Event /> */}
+        <Hack_o_relay />
       </Route>
 
       <Route path="/team">
